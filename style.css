@@ -1,0 +1,115 @@
+* {
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.text-area {
+    border: none;
+    color: #0a3871;
+    margin-top: 100px;
+    text-transform: lowercase;
+    width: 680px;
+    height: 288px;
+    left: 240px;
+    top: 168px;
+
+}
+
+::placeholder { color: #0a3871; }
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensagem {
+    background: white;
+    background-image: url(imagens/boneco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    display: flex;
+    height: 538px;
+}
+
+.mensagem:focus {
+    outline: none
+}
+
+.botoes {
+    display: flex;
+    margin-left: 18px;
+}
+
+.btn-desencriptar {
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color :#0a3871;
+    cursor: pointer;
+    margin-left: 30px;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptar:hover {
+    background: #89c7bd;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-encriptar {
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer ;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-encriptar:hover {
+    background: #89c7bd;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-copiar {
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 479px;
+    position: absolute;
+    width: 336px;
+    
+}
+
+.btn-copiar:hover {
+    background: #89c7bd;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.informacao h6 {
+    margin-left: 50px;
+    color: #495057;
+    font-size: 12px;
+}
